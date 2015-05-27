@@ -13,7 +13,7 @@ count = 0
 for line in fhandle:
 # searches for the desired line and prints the second word
 	if line.startswith('From '):
-		line.split()
+		line = line.split()
 		print line[1]
 		count = count + 1
 
